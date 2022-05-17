@@ -1,0 +1,10 @@
+Count,Message,Traceback,Nodes
+118,'results',"  File ""/home/arc/.local/lib/python3.8/site-packages/locust/user/task.py"", line 319, in run
+    self.execute_next_task()
+  File ""/home/arc/.local/lib/python3.8/site-packages/locust/user/task.py"", line 344, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/home/arc/.local/lib/python3.8/site-packages/locust/user/task.py"", line 457, in execute_task
+    task(self.user)
+  File ""/home/arc/Downloads/test_locust/django-rest-framework-jwt-example-master/locust_test/locustfile.py"", line 40, in v1_seats_read
+    seat_id = json.loads(response)[""results""][0][""id""]
+",local
